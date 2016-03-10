@@ -1,16 +1,16 @@
 {
-  "author": "Alessandro Arnodo",
-  "name": "angular-kickstart",
-  "email": "alessandro@arnodo.net",
-  "url": "http://alessandro.arnodo.net",
-  "version": "1.1.0",
-  "homepage": "https://github.com/vesparny/angular-kickstart",
-  "description": "Speed up your AngularJS development whith a great build system.",
+  "author": "Kamil Mówiński",
+  "name": "My Home Page",
+  "email": "kamil.mowinski@pwr.edu.pl",
+  "url": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kamilmowinski/HomePage",
+  "description": "Home Page",
   "license": "MIT",
-  "bugs": "https://github.com/vesparny/angular-kickstart/issues",
+  "bugs": "https://github.com/kamilmowinski/HomePage/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:vesparny/angular-kickstart.git"
+    "url": "git@github.com:kamilmowinski/HomePage.git"
   },
   "devDependencies": {
     "browser-sync": "~2.7.1",

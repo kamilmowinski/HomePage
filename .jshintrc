@@ -1,6 +1,20 @@
 {
   "globals": {
-    "angular": false
+    "angular": false,
+    /* MOCHA */
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false,
+    "jasmine"    : false,
+    "browser"    : false,
+    "expect"     : false,
+    "by"         : false,
+    "element"    : false,
+    "define"     : false,
+    "saveAs"     : false
   },
   "node": true,
   "browser": true,

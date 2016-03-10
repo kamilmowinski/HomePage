@@ -11,15 +11,15 @@ define([
    */
   function config($stateProvider) {
     $stateProvider
-      .state('root.home', {
+      .state('root.activities', {
         url: '/',
         views: {
           '@': {
-            templateUrl: 'src/app/home/home.tpl.html',
-            controller: 'HomeCtrl as home',
+            templateUrl: 'src/app/activities/activities.tpl.html',
+            controller: 'ActivitiesCtrl as activities',
             resolve: {
               data: function(DataService) {
-                return DataService.getAllProject();
+                return DataService.getValidActivities();
               }
             }
           }
@@ -28,15 +28,15 @@ define([
   }
 
   /**
-   * @name  HomeCtrl
+   * @name  ActivitiesCtrl
    * @description Controller
    */
-  function HomeCtrl(data) {
-    var home = this;
-    home.data = data.data;
+  function ActivitiesCtrl(data) {
+    var activities = this;
+    activities.data = data.data;
   }
 
-  angular.module('home', [])
+  angular.module('activities', [])
     .config(config)
-    .controller('HomeCtrl', HomeCtrl);
+    .controller('ActivitiesCtrl', ActivitiesCtrl);
 });

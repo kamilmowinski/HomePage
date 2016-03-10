@@ -1,4 +1,6 @@
-(function() {
+define([
+    'angular'
+], function(angular) {
   'use strict';
 
   function versionDirective(version) {
@@ -13,4 +15,4 @@
 
   angular.module('common.directives.version', [])
     .directive('appVersion', versionDirective);
-})();
+});

@@ -1,4 +1,6 @@
-(function() {
+define([
+    'angular'
+], function(angular) {
   'use strict';
 
   function httpInterceptor($q, $log) {
@@ -23,4 +25,4 @@
 
   angular.module('common.interceptors.http', [])
     .factory('httpInterceptor', httpInterceptor);
-})();
+});

@@ -1,0 +1,18 @@
+<table class="pure-table pure-table-borded">
+    <thead>
+        <tr>
+            <th>Tytuł</th>
+            <th>Czas</th>
+            <th>Miejsce</th>
+            <th>Opis</th>
+        </tr>
+    </thead>
+    <tbody data-ng-repeat="ac in activities.data">
+        <tr>
+            <td>{{ ac.title }}</td>
+            <td>{{ ac.date }}</td>
+            <td>{{ ac.place }}</td>
+            <td>{{ ac.description }}</td>
+        </tr>
+    </tbody>
+</table>

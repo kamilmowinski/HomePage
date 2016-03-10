@@ -1,0 +1,20 @@
+<table class="pure-table pure-table-borded">
+    <thead>
+        <tr>
+            <th>L.p</th>
+            <th>Start projektu</th>
+            <th>Zakończenie projektu</th>
+            <th>Nazwa projektu</th>
+            <th>Akcja</th>
+        </tr>
+    </thead>
+    <tbody data-ng-repeat="proj in project.data">
+        <tr>
+            <td>{{ $index + 1 }}</td>
+            <td>{{ proj.started }}</td>
+            <td>{{ proj.ended }}</td>
+            <td>{{ proj.label }}</td>
+            <td><a href ng-click="project.openDialog(proj.content);">Szczegóły</a></td>
+        </tr>
+    </tbody>
+</table>

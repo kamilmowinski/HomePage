@@ -1,4 +1,6 @@
-(function() {
+define([
+    'angular'
+], function() {
   'use strict';
 
   function footerCtrl($log) {
@@ -7,4 +9,4 @@
 
   angular.module('common.footer', [])
     .controller('FooterCtrl', footerCtrl);
-})();
+});

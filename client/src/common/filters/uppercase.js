@@ -1,4 +1,6 @@
-(function() {
+define([
+   'angular'
+], function(angular) {
   'use strict';
 
   function uppercase() {
@@ -9,4 +11,4 @@
 
   angular.module('common.filters.uppercase', [])
     .filter('uppercase', uppercase);
-})();
+});

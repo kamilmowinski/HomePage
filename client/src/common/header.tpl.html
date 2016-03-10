@@ -1,9 +1,15 @@
 <div class="pure-menu pure-menu-open pure-menu-horizontal">
-  <a class="pure-menu-heading" href="">angular-kickstart <span app-version></span></a>
+  <a class="pure-menu-heading" href="">Kamil Mówiński</a>
   <ul>
-    <li ui-sref-active="pure-menu-selected"><a href ui-sref="root.home">{{ 'home' | uppercase }}</a>
+    <li ui-sref-active="pure-menu-selected"><a href ui-sref="root.home">{{ 'strona główna' | uppercase }}</a>
     </li>
-    <li ui-sref-active="pure-menu-selected"><a href ui-sref="root.getting-started">{{ 'getting started' | uppercase }}</a>
+    <li ui-sref-active="pure-menu-selected"><a href ui-sref="root.project">{{ 'projekty' | uppercase }}</a>
+    </li>
+    <li ui-sref-active="pure-menu-selected"><a href ui-sref="root.activities">{{ 'zajęcia' | uppercase }}</a>
+    </li>
+    <li ui-sref-active="pure-menu-selected"><a href ui-sref="root.bibliographies">{{ 'bibliografia' | uppercase }}</a>
+    </li>
+    <li><a href="#" ng-click="header.changeLanguage()">{{ 'zmień język' | uppercase }}</a>
     </li>
   </ul>
 </div>

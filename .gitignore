@@ -3,7 +3,8 @@
 .DS_Store
 *~
 .sass-cache
-
+.backand-credentials.json
+.awspublish-hosting-backand.io
 # package control
 node_modules
 client/src/vendor
